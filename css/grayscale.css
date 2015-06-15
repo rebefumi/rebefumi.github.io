@@ -57,6 +57,7 @@ p {
 
 a {
     color:#869198;
+    font-weight: 600;
     word-wrap:break-word;
     -webkit-transition:color .1s ease-in, background .1s ease-in;
     -moz-transition:color .1s ease-in, background .1s ease-in;
@@ -611,16 +612,36 @@ a:after, a:before {
     border-right: 2px solid #FFF;
 }
 
+#language .skill-on, #language .skill-off {
+    display: table-cell;
+    border-left: 2px solid #ededed;
+    border-right: 2px solid #ededed;
+}
+
 /***** End Skills *****/
 
 /***** Portfolio *****/
-.project {
+.project-item {
     display: inline-block;
     margin-bottom: 12px;
     vertical-align: top;
-    width: 215px;
+    width: 33.3333333%;
 }
-.project > img {
+
+.project-sizer{
+     width: 33.3333333%;
+ }
+
+@media screen and (min-width: 768px){
+    .project-sizer{
+        width: 25%;
+    }
+    .project-item {
+        width: 25%;
+    }
+}
+
+.project-item > img {
     max-width: 100%;
     margin-bottom: -1px;
 }
@@ -658,8 +679,8 @@ a:after, a:before {
     margin-top: 10px;
 }
 .project-details a {
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 12px;
+    color: #3c3c3c;
 }
 .project-details i {
     font-size: 13px;

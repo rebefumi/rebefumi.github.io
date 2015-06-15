@@ -719,22 +719,45 @@ ul.banner-social-buttons {
     margin-top: 0;
 }
 
+ul.banner-social-buttons li{
+    margin-bottom: 20px;
+}
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         margin-top: 15px;
+
     }
 }
 
 @media(max-width:767px) {
+
     ul.banner-social-buttons li {
         margin-bottom: 20px;
         padding: 0;
-        margin-left: 20.83333334%;
+
     }
 
-    ul.banner-social-buttons li:last-child {
-        margin-bottom: 0;
+    ul.banner-social-buttons{
+        margin-left: 16.66666667%;
     }
+}
+
+ul.banner-social-buttons li a span.network-name{
+    text-transform: none;
+}
+
+@media(min-width:768px) and  (max-width: 1199px) {
+    .contact-center {
+        margin-left: 16.66666667%;
+    }
+    .contact-center-buttons{
+        margin-left: 29.16666667%;
+    }
+}
+
+.contact-center p{
+    text-align: center;
 }
 
 footer {
@@ -769,15 +792,3 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-@media(min-width:768px) and  (max-width: 1199px) {
-    .contact-center {
-        margin-left: 16.66666667%;
-    }
-    .contact-center-buttons{
-        margin-left: 29.16666667%;
-    }
-}
-
-.contact-center p{
-    text-align: center;
-}

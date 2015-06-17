@@ -39,8 +39,6 @@ function init_masonry(){
 
             return project_width;
         }
-
-        console.log ($('#projects').width());
         $grid.masonry({
             // options
             itemSelector: '.project-item',

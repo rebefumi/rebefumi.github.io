@@ -408,6 +408,14 @@ a:after, a:before {
     margin:0 auto 35px;
 }
 
+#skills .container .row .col-sm-12 .section-title-border{
+    margin-bottom: 20px;
+}
+
+#skills .container .row .section-title {
+    margin-top: 15px;
+}
+
 /***** Section gray *****/
 
 .section-solid {
